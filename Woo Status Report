@@ -1,0 +1,342 @@
+`
+### WordPress Environment ###
+
+WC Version: 9.3.2
+Legacy REST API Package Version: ✔ 1.0.4
+Action Scheduler Version: ✔ 3.8.1
+Log Directory Writable: ✔
+WP Version: 6.6.2
+WP Multisite: –
+WP Memory Limit: 768 MB
+WP Debug Mode: –
+WP Cron: ✔
+Language: en_GB
+External object cache: ✔
+
+### Server Environment ###
+
+Server Info: Apache
+PHP Version: 8.2.23
+PHP Post Max Size: 256 MB
+PHP Time Limit: 120
+PHP Max Input Vars: 3000
+cURL Version: 8.2.1
+OpenSSL/3.1.4
+
+SUHOSIN Installed: –
+MySQL Version: 8.0.36-28
+Max Upload Size: 256 MB
+Default Timezone is UTC: ✔
+fsockopen/cURL: ✔
+SoapClient: ✔
+DOMDocument: ✔
+GZip: ✔
+Multibyte String: ✔
+Remote Post: ✔
+Remote Get: ✔
+
+### Database ###
+
+WC Database Version: 9.3.2
+WC Database Prefix: myz_
+Total Database Size: 36.01MB
+Database Data Size: 23.90MB
+Database Index Size: 12.11MB
+myz_woocommerce_sessions: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+myz_woocommerce_api_keys: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+myz_woocommerce_attribute_taxonomies: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+myz_woocommerce_downloadable_product_permissions: Data: 0.02MB + Index: 0.06MB + Engine InnoDB
+myz_woocommerce_order_items: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+myz_woocommerce_order_itemmeta: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+myz_woocommerce_tax_rates: Data: 0.02MB + Index: 0.06MB + Engine InnoDB
+myz_woocommerce_tax_rate_locations: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+myz_woocommerce_shipping_zones: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+myz_woocommerce_shipping_zone_locations: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+myz_woocommerce_shipping_zone_methods: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+myz_woocommerce_payment_tokens: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+myz_woocommerce_payment_tokenmeta: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+myz_woocommerce_log: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+myz_actionscheduler_actions: Data: 1.52MB + Index: 0.66MB + Engine InnoDB
+myz_actionscheduler_claims: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+myz_actionscheduler_groups: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+myz_actionscheduler_logs: Data: 0.34MB + Index: 0.31MB + Engine InnoDB
+myz_commentmeta: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+myz_comments: Data: 0.02MB + Index: 0.09MB + Engine InnoDB
+myz_is_inverted_index: Data: 1.52MB + Index: 5.39MB + Engine InnoDB
+myz_jetpack_sync_queue: Data: 0.02MB + Index: 0.06MB + Engine InnoDB
+myz_legal_pages: Data: 0.30MB + Index: 0.00MB + Engine InnoDB
+myz_links: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+myz_lp_popups: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+myz_options: Data: 1.52MB + Index: 0.13MB + Engine InnoDB
+myz_postmeta: Data: 2.52MB + Index: 3.03MB + Engine InnoDB
+myz_posts: Data: 9.52MB + Index: 0.34MB + Engine InnoDB
+myz_rcb_asset_seo_redirect: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+myz_rcb_blocker_thumbnails: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+myz_rcb_consent: Data: 0.05MB + Index: 0.05MB + Engine InnoDB
+myz_rcb_revision: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+myz_rcb_revision_independent: Data: 0.08MB + Index: 0.02MB + Engine InnoDB
+myz_rcb_scan: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+myz_rcb_scan_markup: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+myz_rcb_stats: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+myz_rcb_stats_buttons_clicked: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+myz_rcb_stats_custom_bypass: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+myz_rcb_template: Data: 4.52MB + Index: 0.05MB + Engine InnoDB
+myz_rcb_template_translation: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+myz_real_queue: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+myz_sgs_log_events: Data: 0.47MB + Index: 0.16MB + Engine InnoDB
+myz_sgs_log_visitors: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+myz_term_relationships: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+myz_term_taxonomy: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+myz_termmeta: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+myz_terms: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+myz_usermeta: Data: 0.05MB + Index: 0.03MB + Engine InnoDB
+myz_users: Data: 0.02MB + Index: 0.05MB + Engine InnoDB
+myz_wc_admin_note_actions: Data: 0.05MB + Index: 0.02MB + Engine InnoDB
+myz_wc_admin_notes: Data: 0.06MB + Index: 0.00MB + Engine InnoDB
+myz_wc_category_lookup: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+myz_wc_customer_lookup: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+myz_wc_download_log: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+myz_wc_order_addresses: Data: 0.02MB + Index: 0.06MB + Engine InnoDB
+myz_wc_order_coupon_lookup: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+myz_wc_order_operational_data: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+myz_wc_order_product_lookup: Data: 0.02MB + Index: 0.06MB + Engine InnoDB
+myz_wc_order_stats: Data: 0.02MB + Index: 0.05MB + Engine InnoDB
+myz_wc_order_tax_lookup: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+myz_wc_orders: Data: 0.02MB + Index: 0.11MB + Engine InnoDB
+myz_wc_orders_meta: Data: 0.05MB + Index: 0.03MB + Engine InnoDB
+myz_wc_product_attributes_lookup: Data: 0.08MB + Index: 0.06MB + Engine InnoDB
+myz_wc_product_download_directories: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+myz_wc_product_meta_lookup: Data: 0.09MB + Index: 0.17MB + Engine InnoDB
+myz_wc_rate_limits: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+myz_wc_reserved_stock: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+myz_wc_tax_rate_classes: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+myz_wc_webhooks: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+myz_wpforms_logs: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+myz_wpforms_payment_meta: Data: 0.02MB + Index: 0.05MB + Engine InnoDB
+myz_wpforms_payments: Data: 0.02MB + Index: 0.14MB + Engine InnoDB
+myz_wpforms_tasks_meta: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+myz_wpmailsmtp_debug_events: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+myz_wpmailsmtp_tasks_meta: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+
+### Post Type Counts ###
+
+attachment: 383
+custom_css: 2
+customize_changeset: 82
+gt3_gallery: 2
+is_search_form: 4
+nav_menu_item: 42
+page: 25
+post: 2
+product: 25
+product_variation: 492
+rcb-banner-link: 1
+rcb-cookie: 2
+revision: 37
+shop_order: 9
+wp_font_face: 33
+wp_font_family: 12
+wp_global_styles: 2
+wp_navigation: 1
+wpforms: 1
+
+### Security ###
+
+Secure connection (HTTPS): ✔
+Hide errors from visitors: ✔
+
+### Active Plugins (19) ###
+
+XT Variation Swatches for WooCommerce: by XplodedThemes – 1.9.3
+Ivory Search: by Ivory Search – 5.5.7
+Blocksy Companion: by CreativeThemes – 2.0.68
+Email Customizer for WooCommerce: by ThemeHigh – 2.6.3
+GT3 Photo & Video Gallery - Lite: by GT3 Photo Gallery – 2.7.7.23
+Maintenance: by WebFactory Ltd – 4.12
+Printful Integration for WooCommerce: by Printful – 2.2.10
+Real Cookie Banner (Free): by devowl.io – 4.7.15
+Speed Optimizer: by SiteGround – 7.6.6
+Security Optimizer: by SiteGround – 1.5.5
+WooCommerce Legacy REST API: by WooCommerce – 1.0.4
+WooPayments: by WooCommerce – 8.2.1
+WooCommerce Shipping & Tax: by WooCommerce – 2.8.1
+WooCommerce: by Automattic – 9.3.2
+WordPress Importer: by wordpressdotorg – 0.8.2
+SiteGround Central: by SiteGround – 3.1.0
+WP Mail SMTP: by WP Mail SMTP – 4.1.1
+WPForms Lite: by WPForms – 1.9.0.4
+WP Legal Pages: by WPEka Club – 3.2.4
+
+### Inactive Plugins (0) ###
+
+
+### Dropin Plugins () ###
+
+advanced-cache.php: advanced-cache.php
+object-cache.php: Memcached
+
+### Settings ###
+
+Legacy API Enabled: ✔
+Force SSL: –
+Currency: GBP (£)
+Currency Position: left
+Thousand Separator: ,
+Decimal Separator: .
+Number of Decimals: 2
+Taxonomies: Product Types: external (external)
+grouped (grouped)
+simple (simple)
+variable (variable)
+
+Taxonomies: Product Visibility: exclude-from-catalog (exclude-from-catalog)
+exclude-from-search (exclude-from-search)
+featured (featured)
+outofstock (outofstock)
+rated-1 (rated-1)
+rated-2 (rated-2)
+rated-3 (rated-3)
+rated-4 (rated-4)
+rated-5 (rated-5)
+
+Connected to WooCommerce.com: ✔
+Enforce Approved Product Download Directories: ✔
+HPOS feature enabled: –
+Order datastore: WC_Order_Data_Store_CPT
+HPOS data sync enabled: ✔
+
+### Logging ###
+
+Enabled: ✔
+Handler: Automattic\WooCommerce\Internal\Admin\Logging\LogHandlerFileV2
+Retention period: 30 days
+Level threshold: –
+Log directory size: 3 MB
+
+### WC Pages ###
+
+Shop base: #8 - /shop/
+Basket: #9 - /cart/ -  Contains the [woocommerce_cart] shortcode
+Checkout: #10 - /checkout/ -  Contains the [woocommerce_checkout] shortcode
+My account: #27 - /my-account/
+Terms and conditions: ❌ Page not set
+
+### Theme ###
+
+Name: Blocksy
+Version: 2.0.68
+Author URL: https://creativethemes.com
+Child Theme: ❌ – If you are modifying WooCommerce on a parent theme that you did not build
+personally we recommend using a child theme. See: How to create a child theme
+
+WooCommerce Support: ✔
+
+### Templates ###
+
+Overrides: blocksy/woocommerce/cart/cart.php
+blocksy/woocommerce/cart/mini-cart.php
+blocksy/woocommerce/content-widget-product.php
+blocksy/woocommerce/content-widget-reviews.php
+blocksy/woocommerce/myaccount/my-account.php
+blocksy/woocommerce/product-searchform.php
+/home/customer/www/dezinor.com/public_html/wp-content/plugins/xt-woo-variation-swatches/public/templates/variable.php version 1.6.2 is out of date. The core version is 6.1.0
+blocksy/woocommerce/single-product/tabs/tabs.php
+
+Outdated Templates: ❌
+					
+					
+						Learn how to update					 |
+					
+						
+					
+					
+						Clear system status theme info cache
+
+### WooPayments ###
+
+Version: 8.2.1
+Connected to WPCOM: Yes
+WPCOM Blog ID: 230298694
+Account ID: acct_1OrHqgFvCzvAQ3ux
+Payment Gateway: Enabled
+Test Mode: Disabled
+Enabled APMs: card
+WooPay: Not eligible
+Apple Pay / Google Pay: Enabled (product,cart,checkout)
+Fraud Protection Level: basic
+Multi-currency: Enabled
+Auth and Capture: Enabled
+Documents: Enabled
+Logging: Enabled
+
+### Admin ###
+
+Enabled Features: activity-panels
+analytics
+product-block-editor
+coupons
+core-profiler
+customize-store
+customer-effort-score-tracks
+import-products-task
+experimental-fashion-sample-products
+shipping-smart-defaults
+shipping-setting-tour
+homescreen
+marketing
+mobile-app-banner
+navigation
+onboarding
+onboarding-tasks
+pattern-toolkit-full-composability
+product-custom-fields
+remote-inbox-notifications
+remote-free-extensions
+payment-gateway-suggestions
+printful
+shipping-label-banner
+subscriptions
+store-alerts
+transient-notices
+woo-mobile-welcome
+wc-pay-promotion
+wc-pay-welcome-page
+launch-your-store
+
+Disabled Features: experimental-blocks
+minified-js
+product-pre-publish-modal
+settings
+async-product-editor-category-field
+product-editor-template-system
+blueprint
+reactify-classic-payments-settings
+
+Daily Cron: ✔ Next scheduled: 2024-09-24 07:13:09 +00:00
+Options: ✔
+Notes: 69
+Onboarding: completed
+
+### Action Scheduler ###
+
+Canceled: 4
+Oldest: 2024-09-08 20:27:12 +0000
+Newest: 2024-09-19 08:48:08 +0000
+
+Complete: 1,283
+Oldest: 2024-08-23 18:32:22 +0000
+Newest: 2024-09-23 17:07:46 +0000
+
+Failed: 1
+Oldest: 2024-04-21 16:57:35 +0000
+Newest: 2024-04-21 16:57:35 +0000
+
+Pending: 9
+Oldest: 2024-09-23 18:07:46 +0000
+Newest: 2024-09-30 14:17:48 +0000
+
+
+### Status report information ###
+
+Generated at: 2024-09-23 17:33:22 +00:00
+`
